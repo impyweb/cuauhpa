@@ -1,0 +1,136 @@
+/* ===== Estilos Globales ===== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #fdfdfb;
+    color: #2c2c2c;
+    line-height: 1.6;
+}
+
+/* Separador invisible reutilizable */
+.espacio {
+    height: 2rem; /* alto del separador */
+}
+
+/* ===== Encabezado ===== */
+header {
+    background-color: #1a1a1a;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; /* permite adaptarse en pantallas pequeñas */
+}
+
+header img {
+    height: 60px;
+    margin-right: 20px;
+}
+
+/* Menú centrado */
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0 auto; /* centra el menú en el espacio disponible */
+    padding: 0;
+    justify-content: center; /* alinea horizontalmente */
+    flex: 1; /* ocupa espacio para permitir el centrado */
+}
+
+.menu li a {
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    color: #f5f5f5;
+    transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+    color: #d4af37;
+}
+
+/* ===== Main ===== */
+main {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center; /* centra todo el contenido de main */
+}
+
+h1, h2 {
+    font-family: 'Spectral', serif;
+    margin: 0.5rem 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #444;
+    margin-top: 0;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #e0e0e0;
+    margin: 1.5rem 0;
+}
+
+/* ===== Imágenes ===== */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.imagenes-paralelas {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.imagen-redimensionada4 {
+    flex: 1 1 45%;
+    object-fit: cover;
+}
+
+.imagen-modificada {
+    width: 100vw; /* ocupa todo el ancho de la ventana */
+    max-width: none; /* sin límite máximo */
+    margin-left: calc(-50vw + 50%); /* la centra si main está centrado */
+    height: auto;
+}
+
+/* ===== Footer ===== */
+footer {
+    background-color: #1a1a1a;
+    color: #f5f5f5;
+    padding: 2rem 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem 0;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.footer-links li a {
+    color: #f5f5f5;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links li a:hover {
+    color: #d4af37;
+}
