@@ -8,29 +8,90 @@ Este proyecto es estático y está diseñado para ser hospedado en **GitHub Page
 
 cuauhpa/
 │
-├── index.html
-├── nuestra_historia.html
-├── otra_pagina.html
-├── politica.html
-├── terminos.html
-├── contacto.html
-│
-├── css/
-│ └── styles.css
-│
-├── images/
-│ ├── icono1.jpeg
-│ ├── icono2.jpg
-│ └── (otras imágenes)
-│
-├── js/
-│ └── script.js (puede estar vacío)
+├── public/
+│   ├── css/
+│   │   └── styles.css
+│   │
+│   ├── images/
+│   │   ├── face.png
+│   │   ├── icono1.jpeg
+│   │   ├── icono1.PNG
+│   │   ├── icono2.PNG
+│   │   ├── icono3.jpeg
+│   │   ├── icono4.PNG
+│   │   ├── icono5.JPEG
+│   │   ├── icono6.JPEG
+│   │   ├── icono7.jpg
+│   │   ├── icono8.JPEG
+│   │   ├── icono9.JPG
+│   │   ├── icono10.JPG
+│   │   ├── icono11.JPG
+│   │   ├── icono12.jpg
+│   │   ├── icono13.jpg
+│   │   ├── insta.png
+│   │   ├── integrante1.JPG
+│   │   ├── integrante2.JPG
+│   │   ├── integrante3.JPG
+│   │   ├── integrante4.jpg
+│   │   ├── integrante5.JPG
+│   │   ├── integrante6.JPG
+│   │   ├── integrante7.JPG
+│   │   ├── integrante8.JPG
+│   │   ├── integrante9.JPG
+│   │   ├── integrante10.JPG
+│   │   ├── miniatura1.avif
+│   │   ├── miniatura2.avif
+│   │   ├── miniatura3.avif
+│   │   ├── miniatura4.avif
+│   │   ├── miniatura5.png
+│   │   ├── miniatura6.png
+│   │   ├── nota1.jpg
+│   │   ├── nota2.jpg
+│   │   ├── nota3.jpg
+│   │   ├── nota4.jpg
+│   │   ├── nota5.jpg
+│   │   ├── nota6.jpg
+│   │   ├── nota7.jpg
+│   │   ├── nota8.jpg
+│   │   ├── nota9.jpg
+│   │   ├── nota10.JPG
+│   │   ├── nota11.JPG
+│   │   ├── nota12.JPG
+│   │   ├── nota13.JPG
+│   │   ├── nota14.JPG
+│   │   ├── nota15.JPG
+│   │   ├── nota16.JPG
+│   │   ├── nota17.JPG
+│   │   ├── nota18.JPG
+│   │   ├── nota19.JPG
+│   │   ├── nota20.JPG
+│   │   ├── nota21.JPG
+│   │   ├── nota22.JPG
+│   │   ├── nota23.JPG
+│   │   ├── nota24.JPG
+│   │   ├── nota25.JPG
+│   │   ├── nota26.JPG
+│   │   └── you.png
+│   │
+│   ├── js/
+│   │   └── script.js
+│   │
+│   ├── contacto.html
+│   ├── formacion.html
+│   ├── hemeroteca.html
+│   ├── index.html
+│   ├── integrantes.html
+│   ├── nuestra_historia.html
+│   ├── politica.html
+│   ├── proyectos.html
+│   ├── referencias.html
+│   └── terminos.html
 │
 ├── .gitignore
+├── ejecutor.py
 ├── LICENSE
 ├── LICENSE_ES.txt
 └── README.md
-
 
 ## 🚀 Tecnologías utilizadas
 

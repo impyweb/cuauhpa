@@ -50,7 +50,6 @@ header img {
 .menu li a:hover {
     color: #d4af37;
 }
-
 /* ===== Main ===== */
 main {
     padding: 2rem;
@@ -81,6 +80,24 @@ hr {
     margin: 1.5rem 0;
 }
 
+/* ===== Estilo para párrafos generales ===== */
+p {
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+/* ===== Regla específica para la sección de integrantes ===== */
+.integrantes p {
+    text-align: left;
+}
+
+/* ===== Contenedor para la sección de integrantes (restaurando la cuadrícula) ===== */
+.integrantes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
 /* ===== Imágenes ===== */
 img {
     max-width: 100%;
@@ -105,6 +122,297 @@ img {
     max-width: none; /* sin límite máximo */
     margin-left: calc(-50vw + 50%); /* la centra si main está centrado */
     height: auto;
+}
+
+.integrantes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.integrante {
+    text-align: center;
+    padding: 1rem;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.integrante img {
+    width: 150px; /* Tamaño fijo para las fotos */
+    height: 150px;
+    border-radius: 50%; /* Para que las fotos sean circulares */
+    object-fit: cover; /* Ajusta la imagen sin distorsionarla */
+    margin-bottom: 1rem;
+    border: 3px solid #d4af37;
+}
+
+.integrante h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+/* ===== Nuestra historia ===== */
+
+.imagen-texto-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.imagen-texto-container2 {
+    display: flex;
+    flex-direction: column; /* Cambiado a columna para apilar los elementos */
+    align-items: center; /* Centra los elementos horizontalmente en el contenedor */
+    margin-bottom: 20px;
+}
+
+.imagen-izquierda {
+    margin-right: 20px;
+    max-width: 400px;
+    max-height: 700px; /* Cambia este valor a la altura máxima que desees */
+    height: auto; /* Mantén esto para que la imagen no se deforme */
+}
+
+.texto-derecha {
+    flex-grow: 1;
+}
+
+.imagen-abajo {
+    max-width: 100%; /* La imagen ocupará todo el ancho disponible del contenedor */
+    height: auto;
+    margin-top: 20px; /* Agrega espacio entre el texto y la imagen */
+}
+
+.texto-arriba {
+    text-align: justify; /* Justifica el texto para una mejor lectura */
+}
+
+/* ===== Videos ===== */
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.video-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.video-card:hover {
+    transform: translateY(-5px);
+}
+
+.video-card img {
+    width: 100%;
+    height: 180px; /* Establece una altura fija para las miniaturas (ajusta el valor según necesites) */
+    display: block;
+    object-fit: cover; /* Recorta la imagen para que cubra todo el contenedor sin deformarla */
+}
+
+.video-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.video-card p {
+    font-size: 0.9rem;
+    color: #666;
+    padding: 0 15px 15px;
+    margin: 0;
+}
+
+.video-iframe {
+    width: 100%;
+    height: 180px; /* Misma altura que la que usamos para las miniaturas */
+    border-radius: 8px 8px 0 0;
+}
+
+/* ===== Hemeroteca ===== */
+.intro-hemeroteca {
+    max-width: 800px;
+    margin: 0 auto 30px;
+    text-align: center;
+    font-style: italic;
+    color: #555;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gallery-item {
+    display: block;
+    height: 200px; /* Altura fija para la uniformidad */
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.gallery-item:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Recorta y centra la imagen */
+    display: block;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* ===== Niversario ===== */
+.aniversario {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f8ff; /* Un color de fondo suave para que destaque */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+}
+
+.aniversario p {
+    margin-bottom: 15px;
+}
+
+.aniversario strong {
+    color: #4CAF50; /* O un color que te guste para resaltar las negritas */
+}
+
+/* ===== Contacto ===== */
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.contact-info strong {
+    font-weight: 600;
+}
+
+.social-media {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.social-links img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
+
+/* ===== Términos ===== */
+
+.terms-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.terms-container h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 30px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.terms-container p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.final-note {
+    font-size: 0.8rem;
+    color: #888;
+    font-style: italic;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* ===== Política ===== */
+
+.policy-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.policy-container h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 30px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.policy-container p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.final-note {
+    font-size: 0.8rem;
+    color: #888;
+    font-style: italic;
+    text-align: center;
+    margin-top: 40px;
 }
 
 /* ===== Footer ===== */
