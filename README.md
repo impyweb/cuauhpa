@@ -28,6 +28,7 @@ cuauhpa/
 │   │   ├── icono11.JPG
 │   │   ├── icono12.jpg
 │   │   ├── icono13.jpg
+│   │   ├── icono111.png
 │   │   ├── insta.png
 │   │   ├── integrante1.JPG
 │   │   ├── integrante2.JPG
@@ -39,9 +40,9 @@ cuauhpa/
 │   │   ├── integrante8.JPG
 │   │   ├── integrante9.JPG
 │   │   ├── integrante10.JPG
-│   │   ├── miniatura1.avif
-│   │   ├── miniatura2.avif
-│   │   ├── miniatura3.avif
+│   │   ├── miniatura1.webp
+│   │   ├── miniatura2.webp
+│   │   ├── miniatura3.webp
 │   │   ├── miniatura4.avif
 │   │   ├── miniatura5.png
 │   │   ├── miniatura6.png

@@ -292,7 +292,7 @@ img {
     background-color: #0056b3;
 }
 
-/* ===== Niversario ===== */
+/* ===== Aniversario ===== */
 .aniversario {
     max-width: 800px;
     margin: 0 auto;
@@ -413,6 +413,37 @@ img {
     font-style: italic;
     text-align: center;
     margin-top: 40px;
+}
+
+/* ===== libro ===== */
+
+.enlace-libro a {
+    /* Estilo del texto */
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none; /* Quita el subrayado predeterminado */
+    color: #fff; /* Color del texto */
+
+    /* Estilo del botón */
+    background-color: #007bff; /* Color de fondo azul */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    display: inline-block; /* Para que el padding y los márgenes funcionen correctamente */
+    margin-top: 15px; /* Margen superior para separarlo del párrafo */
+    border: 1px solid #0056b3; /* Borde del botón */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transición suave al pasar el cursor */
+}
+
+/* Efecto al pasar el cursor sobre el botón */
+.enlace-libro a:hover {
+    background-color: #0056b3; /* Color de fondo más oscuro al pasar el cursor */
+    transform: translateY(-2px); /* Un pequeño efecto para que parezca que se levanta */
+}
+
+/* Efecto al hacer clic en el botón */
+.enlace-libro a:active {
+    background-color: #00428d; /* Color de fondo más oscuro al hacer clic */
+    transform: translateY(0);
 }
 
 /* ===== Footer ===== */
